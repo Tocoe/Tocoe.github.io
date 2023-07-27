@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<title>week-1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<p>
+<a href="../index.html">/index</a>
+</p>
+<div id="CAB201 - Programming Principles"><h1 id="CAB201 - Programming Principles" class="header"><a href="#CAB201 - Programming Principles">CAB201 - Programming Principles</a></h1></div>
+<p>
+<span id="CAB201 - Programming Principles-Week 1 Lecture: Introduction"></span><strong id="Week 1 Lecture: Introduction">Week 1 Lecture: Introduction</strong>
+</p>
+
+<p>
+<span id="CAB201 - Programming Principles-C# and .NET"></span><strong id="C# and .NET">C# and .NET</strong>
+</p>
+<ul>
+<li>
+C# is the language, .NET is the framework
+
+<li>
+C# programs are compiled into .NET binaries and executed through that framework
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Interpreted:"></span><strong id="Interpreted:">Interpreted:</strong>
+</p>
+<ul>
+<li>
+Java Script, Python etc
+
+<li>
+You write the source code, and that source file will run as is. It is not compiled into an executable.
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Compiled to Native Code:"></span><strong id="Compiled to Native Code:">Compiled to Native Code:</strong>
+</p>
+<ul>
+<li>
+You write the source code, which is then compiled. But the compiled code will only run on the platform it is compiled for.
+
+<li>
+E.g. a C# program might be compiled to run on windows 64-bit systems, and will not run on other platforms. This is becuase compiled low level code is <em>native</em>, and
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Compiled to Intermediate Bytecode:"></span><strong id="Compiled to Intermediate Bytecode:">Compiled to Intermediate Bytecode:</strong>
+</p>
+<ul>
+<li>
+Bytecode can be efficiently interpreted by a range of systems.
+
+<li>
+It is not a native executeable, it is designed to be interpreted very quickly.
+
+<li>
+It sometimes looks like a native executeable, but it is not.
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Dynamic vs Static"></span><strong id="Dynamic vs Static">Dynamic vs Static</strong>
+</p>
+<ul>
+<li>
+Dynamic languages are loosely typed, e.g. any python variable can be declared with any data.
+
+<li>
+Static languages are strongly typed, each variable type will only hold certain kinds of data.
+
+<li>
+Using 'var' in C# just infers the type based on the value initialization, it is <em>NOT</em> loosely typed. It doesn't change the fact you need to settle on a type upfront. E.g. if var is initialized with an integer, it can't later be appended with a string.
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Notes On C#"></span><strong id="Notes On C#">Notes On C#</strong>
+</p>
+<ul>
+<li>
+Strongly typed.
+
+<li>
+Static.
+
+<li>
+Int64 is the largest integer type.
+
+<li>
+'Method' and 'Function' are synonomous.
+
+<li>
+Argument and return types must be declared with the function/method.
+
+<ul>
+<li>
+Having types declared upfront like this is faster, since the native machine code will be less ambiguous.
+
+</ul>
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Int Types in C#"></span><strong id="Int Types in C#">Int Types in C#</strong>
+</p>
+<ul>
+<li>
+Int 32:
+
+<ul>
+<li>
+signed value (holds positive and negative numbers.)
+
+<li>
+holds values between \(-2^{31}\) and \(2^{31}\)
+
+</ul>
+<li>
+Uint 32:
+
+<li>
+long:
+
+<li>
+Ulong:
+
+<li>
+Short:
+
+<li>
+Ushort:
+
+<li>
+Byte:
+
+<li>
+sByte:
+
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Float Types in C#"></span><strong id="Float Types in C#">Float Types in C#</strong>
+</p>
+<ul>
+<li>
+Float types can hold very large range of values, but it is inprecise.
+
+<li>
+Float:
+
+<li>
+Double:
+
+<li>
+Decimal:
+
+<ul>
+<li>
+16 bytes large
+
+<li>
+Doesn't store floating point values.
+
+<li>
+Stores fractional numbers without floating point inprecision.
+
+</ul>
+</ul>
+
+<p>
+<span id="CAB201 - Programming Principles-Other Types in C#"></span><strong id="Other Types in C#">Other Types in C#</strong>
+</p>
+<ul>
+<li>
+Char:
+
+<ul>
+<li>
+Holds a single text character.
+
+</ul>
+<li>
+String:
+
+<ul>
+<li>
+Holds an array of char.
+
+</ul>
+<li>
+Boolean:
+
+<ul>
+<li>
+Holds a 0 or 1 (true or false.)
+
+</ul>
+</ul>
+
+</body>
+</html>
